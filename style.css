@@ -13,10 +13,11 @@ table{
 
 table, th, td{
     padding: 15px;
+    text-align: center;
 }
 
-table th, td{
-    text-align: center;
+tr:hover{
+    background-color: #b3b3b0;
 }
 
 #officeimg{
