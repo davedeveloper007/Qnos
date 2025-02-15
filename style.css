@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+table{
+    margin: 70px auto;
+    width: 50%;
+    
+}
+
+table, th, td{
+    padding: 15px;
+}
+
+table th, td{
+    text-align: center;
+}
+
+#officeimg{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+
+
+
