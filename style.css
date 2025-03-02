@@ -8,6 +8,9 @@ body{
 table{
     margin: 70px auto;
     width: 50%;
+    background-color: rgba(47, 248, 255, 0.137);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #00a2ff;
     
 }
 
@@ -17,7 +20,8 @@ table, th, td{
 }
 
 tr:hover{
-    background-color: #b3b3b0;
+    transition: ease-in 0.2s;
+    background-color: #2575a38f;
 }
 
 #officeimg{
