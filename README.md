@@ -1,1 +1,1 @@
-# Qnos - legacy of office!
+# Qnos - legacy of softwares
