@@ -1,1 +1,1 @@
-Qnos – Innováció és Technológia a Jövőért
+#Qnos – Innováció és Technológia a Jövőért
