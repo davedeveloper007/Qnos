@@ -1,1 +1,1 @@
-# Qnos - legacy of softwares
+Qnos – Innováció és Technológia a Jövőért
