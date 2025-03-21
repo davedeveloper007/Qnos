@@ -53,10 +53,15 @@ main{
 }
 
 .kepek{
-    margin-top: 10px;
-    width: 60%;
+    margin-top: 20px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
+}
+
+.kepek img{
+    border-radius: 10px;
 }
 
 .about{
