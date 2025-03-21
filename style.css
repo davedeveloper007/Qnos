@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
 :root{
     --Blue-900: #0c1821;
     --Blue-800: #1b2a41;
@@ -15,15 +11,52 @@ body{
     --light:  #ccc9dc; 
 }
 
-hr{
-    border: 1px solid white;
-    margin: 10px;
+body{
+    font-family: "Roboto Mono", monospace;
+    background-color: var(--Blue-800);
+}
+
+.fejlec{
+    background-image: url('header-picture.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 150px 60px;
+    
+}
+
+.fejlec h1{
+    font-size: 100px;
+    text-shadow: 0px 0px 15px #00a2ff;
+}
+
+.fejlec a{
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: var(--Blue-900);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00a2ff;
+}
+
+.fejlec a:hover{
+    background-color: var(--light);
+    transition: ease-in-out 0.7s;
+    color: var(--Blue-900);
+    box-shadow: 0px 0px 40px #00a2ff;
 }
 
 main{
-    background-color: var(--Blue-700);
-    color: white;
-    padding: 20px;
+    color: var(--light);
+}
+
+.kepek{
+    margin-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about{
@@ -64,12 +97,7 @@ tr:hover{
 }
 
 footer{
-    color: white;
-    text-align: right;
-    padding: 20px;
-    height: 50px;
-    bottom: 0;
-    width: 100%;
+    background-color: var(--Blue-900);
 }
 
 
